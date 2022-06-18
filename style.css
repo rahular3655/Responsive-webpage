@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.c-img{
+    background-image: url(source/corporate-campaign-web-nv-com-wmfg-nv-story-2560x580-d@2x.jpg);
+     background-size: cover;
+     background-position: center;  
+
+}
+@media screen and (max-width:550px) {
+    .c-img{
+        background-image: url(source/nvida-small-540.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+.pic{
+    margin-left: 105px;
+    margin-top: -30px;
+}
+.pic.img{
+    size: 12px;
+}
+.c-img .h2,.Shop p,.Gaming p,.Latestnews p, footer p,.icon i,.card-title{
+    color: #76b900;
+}
+
+.card-title{
+    font-size: large;
+}
+
+.card-text{
+    font-weight: 100;
+    color: rgb(104, 103, 103);
+}
+ .header-text {
+    color: azure;
+}
+.header-text .cnt .img{
+    margin-top: -110px;
+    margin-left: 82px;
+}
+.savethedate,.subscribe {
+        background-color: #76b900;
+        border: none;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+
+}
+.cnt{
+    height: 60vh;
+}
+.m-height-200{
+    min-height: 200px;
+}
+.m-height-120{
+    min-height: 120px;
+}
+.m-height-280{
+    min-height: 280px;
+}
+/* .Section1 p{
+color: #76b900;
+} */
+/* .Section2 p{
+    color: #76b900;
+}
+.Section3 p{
+    color: #76b900;
+} */
+footer{
+    background-color: black;
+}
+
+footer a{
+    text-decoration: none;
+}
+/* footer p{
+    color: #76b900;
+} */
+hr{
+    width: 234px;
+    height: 2px;
+    margin-left: -12px;
+}
+h6{
+    color: aliceblue;
+    font-size: 14px;
+}
+
+/* .icon i{
+    color: #76b900;
+} */
+.icons{
+    font-size: 25px;
+    color: aliceblue;
+}
+.Last{
+    background-color:white;
+    width: 90px;
+}
+@media only screen and (max-width: 600px) {
+    .pic{
+        margin-left: 25px;
+    }
+}
+.txtft{
+    color: white;
+}
+/* remove this..... */
+#footlogo{
+    padding-left: 0px;
+}
+ @media only screen and(max-width:1200px) {
+    #footlogo {
+        padding-left: 300px;
+    } 
+} 
+
+/* remove... */
+.lasft{
+    color: black;
+}
+/* .signupft{
+    mar
+} */
+.Follow-NVIDIA{
+    color: white;
+}
+@media  screen and(max-width: 500px) {
+    #footlogo{
+        padding: 0;
+    }
+    
+}
